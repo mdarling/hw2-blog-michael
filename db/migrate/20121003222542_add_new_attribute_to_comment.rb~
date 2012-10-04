@@ -1,0 +1,4 @@
+class AddNewAttributeToComment < ActiveRecord::Migration
+  def change
+  end
+end

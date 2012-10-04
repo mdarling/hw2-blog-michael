@@ -1,0 +1,9 @@
+<%= div_for comment do %>
+<p><strong>
+Posted <%= time_ago_in_words(comment.created_at) %>
+</strong><br />
+<b>Author:</b> <%= h(comment.author) %><br />
+Comment:<br />
+<b><%= h(comment.body) %></b>
+</p>
+<% end %>
